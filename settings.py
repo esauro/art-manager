@@ -128,13 +128,17 @@ STATIC_URL = "/static/"
 ADMIN_MEDIA_PREFIX = "/static/admin/"
 
 MEDIA_ROOT = os.path.join(PROJECT_PATH, "media")
-MEDIA_URL = "/media/"
+MEDIA_URL = "/site_media/"
 
 CMS_TEMPLATES = (
-    ('template_1.html', 'Template One'),
+    ('hero.html', 'Portada'),
 #    ('template_2.html', 'Template Two'),
     )
 
 LANGUAGES = [
     ('es', u'Español'),
 ]
+
+STATICFILES_DIRS = (
+    PROJECT_PATH + '/media',
+)
