@@ -54,23 +54,7 @@
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
         {% block hero %}
-          <script>
-              $('.carousel').carousel({
-                  interval: 2000
-              });
-              $('.carousel').carousel();
-          </script>
-          <div id="myCarousel" class="carousel">
-              <!-- Carousel items -->
-              <div class="carousel-inner">
-                  <div class="item active"><img src="/site_media/cms_page_media/1/IRE_Y_JA.JPG" /></div>
                   {% placeholder "hero" %}
-             </div>
-              <!-- Carousel nav -->
-              <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-              <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-          </div>
-
         {% endblock hero %}
       </div>
 
@@ -107,19 +91,11 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     {% render_block "js" %}
-    <script src="{{ STATIC_URL }}/js/jquery.js"></script>
-    <script src="{{ STATIC_URL }}/js/bootstrap-transition.js"></script>
-    <script src="{{ STATIC_URL }}/js/bootstrap-alert.js"></script>
-    <script src="{{ STATIC_URL }}/js/bootstrap-modal.js"></script>
-    <script src="{{ STATIC_URL }}/js/bootstrap-dropdown.js"></script>
-    <script src="{{ STATIC_URL }}/js/bootstrap-scrollspy.js"></script>
-    <script src="{{ STATIC_URL }}/js/bootstrap-tab.js"></script>
-    <script src="{{ STATIC_URL }}/js/bootstrap-tooltip.js"></script>
-    <script src="{{ STATIC_URL }}/js/bootstrap-popover.js"></script>
-    <script src="{{ STATIC_URL }}/js/bootstrap-button.js"></script>
-    <script src="{{ STATIC_URL }}/js/bootstrap-collapse.js"></script>
-    <script src="{{ STATIC_URL }}js/bootstrap-carousel.js"></script>
-    <script src="{{ STATIC_URL }}/js/bootstrap-typeahead.js"></script>
+    <!--<script src="{{ STATIC_URL }}js/jquery.min.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-transition.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-typeahead.js"></script>
+    <script src="{{ STATIC_URL }}js/bootstrap-carousel.js"></script>-->
+
 
 
   </body>

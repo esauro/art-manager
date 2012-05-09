@@ -99,6 +99,7 @@ INSTALLED_APPS = (
     'cms.plugins.video',
     'cms.plugins.twitter',
     #'reversion',
+    'django_cms_carousel',
     )
 
 MIDDLEWARE_CLASSES = (
