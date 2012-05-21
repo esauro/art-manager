@@ -147,3 +147,4 @@ LANGUAGES = [
 STATICFILES_DIRS = (
     PROJECT_PATH + '/media',
 )
+
