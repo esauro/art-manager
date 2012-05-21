@@ -26,8 +26,8 @@ DATABASES = {
         'NAME': 'dev.db',
         'USER': '',
         'PASSWORD': '',
-        'HOST', : '',
-        'PORT', : '',
+        'HOST': '',
+        'PORT': '',
         }
 }
 
