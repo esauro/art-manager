@@ -13,3 +13,4 @@ html5lib
 django-filer
 django-reversion
 psycopg2==2.4.5
+-e git://github.com/esauro/django_cms_carousel.git#egg=django_cms_carousel
