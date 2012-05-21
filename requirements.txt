@@ -12,3 +12,4 @@ django-classy-tags
 html5lib
 django-filer
 django-reversion
+psycopg2==2.4.5
