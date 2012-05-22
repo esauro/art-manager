@@ -12,5 +12,6 @@ django-classy-tags
 html5lib
 django-filer
 django-reversion
-psycopg2==2.4.5
+psycopg2
 -e git://github.com/esauro/django_cms_carousel.git#egg=django_cms_carousel
+gunicorn
