@@ -118,6 +118,7 @@ INSTALLED_APPS = (
     'cms.plugins.twitter',
     #'reversion',
     'django_cms_carousel',
+    'gunicorn',
     )
 
 MIDDLEWARE_CLASSES = (
