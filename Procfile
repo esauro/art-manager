@@ -1,1 +1,1 @@
-bin/gunicorn_django --workers=1 --bind=0.0.0.0:$PORT settings.py
+gunicorn --workers=1 --bind=0.0.0.0:$PORT settings.py
