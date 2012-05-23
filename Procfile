@@ -1,1 +1,1 @@
-web: gunicorn art-manager.wsgi -b 0.0.0.0:$PORT -w 3
+web: python manage.py run_gunicorn -w 1 -b 0.0.0.0:$PORT
