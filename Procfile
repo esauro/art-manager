@@ -1,1 +1,1 @@
-web:gunicorn --workers=1 --bind=0.0.0.0:$PORT settings.py
+web: gunicorn app:app -b 0.0.0.0:$PORT -w 3
