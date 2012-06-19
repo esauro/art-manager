@@ -167,18 +167,22 @@ WYM_CONTAINERS = ",\n".join([
     "{'name': 'P', 'title': 'Parrafo', 'css': 'wym_containers_p'}",
     "{'name': 'H1', 'title': 'Encabezado', 'css': 'wym_containers_h1'}",
     "{'name': 'SPAN', 'title': 'Boton', 'css': 'wym_containers_span'}",
-    "{'name': 'PRE', 'title': 'Preformatted', 'css': 'wym_containers_pre'}",
-    "{'name': 'BLOCKQUOTE', 'title': 'Blockquote', 'css': 'wym_containers_blockquote'}",
+    "{'name': 'PRE', 'title': 'Preformatted', "
+    "'css': 'wym_containers_pre'}",
+    "{'name': 'BLOCKQUOTE', 'title': 'Blockquote',"
+    "'css': 'wym_containers_blockquote'}",
     "{'name': 'TH', 'title': 'Table_Header', 'css': 'wym_containers_th'}",
     ])
 
 WYM_CLASSES = ",\n".join([
     "{'name': 'date', 'title': 'PARA: Date', 'expr': 'p'}",
-    "{'name': 'hidden-note', 'title': 'PARA: Hidden note', 'expr': 'p[@class!=\"important\"]'}",
+    "{'name': 'hidden-note', 'title': 'PARA: Hidden note',"
+    "'expr': 'p[@class!=\"important\"]'}",
     "{'name': 'label label-info', 'title': 'SPAN: Etiqueta informativa', 'expr': 'span'}",
     ])
 
 WYM_STYLES = ",\n".join([
     "{'name': '.hidden-note', 'css': 'color: #999; border: 2px solid #ccc;'}",
-    "{'name': '.date', 'css': 'background-color: #ff9; border: 2px solid #ee9;'}",
+    "{'name': '.date', "
+    "'css': 'background-color: #ff9; border: 2px solid #ee9;'}",
     ])
